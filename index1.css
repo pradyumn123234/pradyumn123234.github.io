@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+      background: linear-gradient(45deg,aqua,lightgreen,lightsalmon);
+    }
+    h1 {
+    font-size: 50px;
+    border: solid black 6px;
+    border-radius: 50px;
+    }
+    #rules{
+    text-align: left;
+    }
+    #rule {
+    font-size: 20px;
+    }
+    button {
+    font-size: 45px;
+    border-radius: 15px;
+    }
+    #hit{
+    background-color: lightgreen;
+    }
+    #stay {
+    background-color: lightsalmon;
+    }
+    #playAgain {
+    background: linear-gradient(lightgreen,lightsalmon);
+    }
+    #how2Play {
+    border-radius: 50px;
+    }
+    #points {
+    font-size: 25px;
+    border-radius: 100px;
+    font-weight: bold;
+    }
+    #scores {
+    font-size: 25px;
+    border-radius: 100px;
+    font-weight: bold;
+    padding: 0 0 70px 0;
+    }
+    #winner {
+      font-size: 40px;
+    }
+    
