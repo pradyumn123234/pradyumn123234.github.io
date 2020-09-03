@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        games
+    </title>
+    <link rel="stylesheet"
+    href="index1.css">
+</head>
+<body>
+    <h1>
+        Black Jack
+    </h1>
+
+    <div id="how2Play">
+        
+        <h4 id="rule"><strong>Rules: </strong></h4>
+
+        <ul id="rules">
+
+            <em>
+               
+                <li>Exactly 21 wins automatically.</li>
+                <li>Getting a higher number than computer i9s also a win.</li>
+                <li>Going over 21 (busting) is loss.</li>
+                <li>computer wins if it gets a higher or equal number to you</li>
+                <li>to start the game click the 'HIT' button.</li>
+
+            </em>
+
+        </ul>
+
+    </div>
+
+    <div id="points">
+
+        <p id="p">Points:</p>
+        <p id="tp">Total Points:</p>
+        <p id="cp">Computer Points: ?</p>
+
+    </div>
+
+    <div id="clickers">
+
+        <button id="hit" onClick="hit()">HIT</button>
+        <button id="stay" onClick="stay()">STAY</button>
+        <button id="playAgain" onClick="reset()">PLAY AGAIN </button>
+
+    </div>
+
+    <div id="scores">
+
+        <p id="winner"></p>
+        <p id="wins">WINS: </p>
+        <p id="loss">LOSS: </p>
+
+    </div>
+
+    <script src="index1.js"></script>
+
+</body>
+</html>
